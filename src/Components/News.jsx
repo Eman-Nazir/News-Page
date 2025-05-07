@@ -27,7 +27,7 @@ const News = () => {
 
   const handlePageClick = (pageNumber) => {
     setCurrentPage(pageNumber);
-    window.scrollTo({ top: 0, behavior: 'smooth' }); // 👈 Smooth scroll to top
+    window.scrollTo({ top: 0, behavior: 'smooth' }); 
   };
 
   if (loading) return <p className="font-bold text-2xl">Loading...</p>;
